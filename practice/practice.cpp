@@ -32,6 +32,8 @@ int main()
 	
 
 	//task 4
+	//task 4
+	//task 4
 	float kg;
 	float gram_in_kg = 1000;
 	int t = 30;
