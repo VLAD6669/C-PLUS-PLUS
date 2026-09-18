@@ -47,6 +47,68 @@ int main()
 	
 
 
+	//Second Part
+	//task 1
+	float num1;
+	float num2;
+	float num3;
+	float summ;
+	cout << "Enter first number: ";
+	cin >> num1;
+	cout << "Enter second number: ";
+	cin >> num2;
+	cout << "Enter third number: ";
+	cin >> num3;
+	summ = num1 + num2 + num3;
+	cout << "Summ of your numbers: " << summ << endl;
+
+	//task 2
+
+	float num1;
+	float num2;
+	float ser;
+	ser = (num1 + num2) / 2;
+	cout << "Saverage of your numbers: " << ser << endl;
+
+	//task 3
+	int km;
+	int meters = 1000;
+	float in_meters;
+	cout << "Enter number in km: ";
+	cin >> km;
+	in_meters = km * meters;
+	cout << "Your number in meters: " << in_meters << endl;
+
+
+	//task 4
+
+	const float first_good = 20.50;
+	const float second_good = 30.99;
+	const float third_good = 15.75;
+	const float fourth_good = 10.99;
+	float sum;
+	sum = first_good + second_good + third_good + fourth_good;
+	cout << "Sum of your goods: " << sum << endl;
+
+
+	float number;
+	float kv;
+	cout << "Enter number: ";
+	cin >> number;
+	kv = number * number;
+	cout << "Kvadrat of your number: " << kv << endl;
+
+	//task 5
+	const float minutes_in_day = 1440;
+	int days;
+	float minutes;
+	cout << "Enter number of days: ";
+	cin >> days;
+	minutes = days * minutes_in_day;
+	cout << "Minutes in your days: " << minutes << endl;
+
+
+
 
 	return 0;
 
